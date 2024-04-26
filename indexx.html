@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+      <nav>
+        <a href=indexx.html><img src="./eduford_img/logo.png" alt=""></a>
+          <div class="navbar" id="navbar">
+              <ul>
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                 <li><a href="">Home</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Course</a></li>
+                 <li><a href="">Blog</a></li>
+                 <li><a href="">Contact</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars " id="menu" onclick="showmenu()"></i>
+      </nav> 
+      <div class="content">
+         <h1>World's Biggest University</h1>
+         <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. Today we’re a forward-looking, diverse community devoted to social justice, restless inquiry and respect for each person’s individual needs and talents..</p>
+         <a class="btn" href="">Visit Us</a>
+      </div>
+    </section>
+
+    <script>
+        var navbar = document.getElementById("navbar");
+        function showmenu(){
+           navbar.style.right ="0";
+        }
+        function hidemenu(){
+           navbar.style.right ="-200px";
+        }  
+       
+       
+       </script>
+</body>
+</html>
